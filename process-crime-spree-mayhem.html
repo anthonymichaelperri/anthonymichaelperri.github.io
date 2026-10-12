@@ -1,0 +1,350 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Making Crime Spree Mayhem — Anthony Michael Perri</title>
+<meta name="description" content="How Anthony Michael Perri is turning his novel manuscript Crime Spree Mayhem into a pitch-ready short film: screenplay, storyboards, pitch deck, shooting schedule and crew.">
+<link rel="icon" type="image/png" href="assets/favicon.png">
+<link rel="icon" type="image/png" sizes="192x192" href="assets/icon-192.png">
+<link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Making Crime Spree Mayhem — Anthony Michael Perri">
+<meta property="og:description" content="How Anthony Michael Perri is turning his novel manuscript Crime Spree Mayhem into a pitch-ready short film: screenplay, storyboards, pitch deck, shooting schedule and crew.">
+<meta property="og:image" content="assets/og-image.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="preconnect" href="https://api.fontshare.com">
+<link href="https://api.fontshare.com/v2/css?f[]=boska@400,500,700,400i&f[]=switzer@400,500,600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#111113; --surface:#1a1a1e; --line:#2c2c33; --text:#f1eadf; --muted:#a59a8b; --accent:#b4bbec; --accent-ink:#141210;
+  --font-display:'Boska', Georgia, serif; --font-body:'Switzer', 'Helvetica Neue', sans-serif;
+  --text-xs:clamp(.75rem,.72rem + .15vw,.82rem); --text-sm:clamp(.875rem,.85rem + .15vw,.95rem);
+  --text-base:clamp(1rem,.97rem + .15vw,1.0625rem); --text-lg:clamp(1.15rem,1.05rem + .4vw,1.35rem);
+  --text-xl:clamp(1.6rem,1.3rem + 1.2vw,2.3rem); --text-hero:clamp(2.9rem,1.6rem + 6vw,7rem);
+  --wrap:1180px; --pad:clamp(1.25rem,4vw,3rem); --section:clamp(3rem,6vw,5.5rem);
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{background:var(--bg);color:var(--text);font-family:var(--font-body);font-size:var(--text-base);line-height:1.65;-webkit-font-smoothing:antialiased}
+img{max-width:100%;height:auto;display:block}
+a{color:inherit}
+.wrap{max-width:var(--wrap);margin:0 auto;padding:0 var(--pad)}
+.eyebrow{font-size:var(--text-xs);letter-spacing:.18em;text-transform:uppercase;color:var(--accent);font-weight:600}
+h1,h2,h3{font-family:var(--font-display);font-weight:500;line-height:1.05;letter-spacing:-.01em}
+h2{font-size:var(--text-xl);margin:.6rem 0 1.2rem}
+h3{font-family:var(--font-body);font-size:var(--text-lg);font-weight:600;line-height:1.3}
+p+p{margin-top:1rem}
+.muted{color:var(--muted)}
+:focus-visible{outline:2px solid var(--accent);outline-offset:3px}
+
+/* nav */
+header.nav{position:sticky;top:0;z-index:10;background:rgba(17,17,19,.86);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+.nav .wrap{display:flex;align-items:center;justify-content:space-between;height:64px}
+.brand{display:flex;align-items:center;gap:.7rem;text-decoration:none;font-size:var(--text-sm);font-weight:600;letter-spacing:.04em}
+.brand .logo{width:auto;height:44px}
+.nav ul{display:flex;gap:1.6rem;list-style:none;font-size:var(--text-sm)}
+.nav ul a{text-decoration:none;color:var(--muted);transition:color .2s}
+.nav ul a:hover{color:var(--text)}
+@media (max-width:760px){.nav ul{display:none}}
+.nav .dd{position:relative}
+.nav .dd summary{list-style:none;cursor:pointer;color:var(--text);display:flex;align-items:center;gap:.35rem;user-select:none}
+.nav .dd summary::-webkit-details-marker{display:none}
+.nav .dd summary::after{content:"";width:6px;height:6px;border-right:1.5px solid var(--accent);border-bottom:1.5px solid var(--accent);transform:translateY(-2px) rotate(45deg);transition:transform .2s}
+.nav .dd[open] summary::after{transform:translateY(1px) rotate(-135deg)}
+.nav .dd summary:hover{color:var(--accent)}
+.nav .dd-menu{position:absolute;right:0;top:calc(100% + 14px);min-width:250px;background:var(--surface);border:1px solid var(--line);border-radius:8px;padding:.4rem;box-shadow:0 18px 40px rgba(0,0,0,.45);display:flex;flex-direction:column}
+.nav .dd-menu a{display:block;padding:.6rem .8rem;border-radius:5px;color:var(--text)}
+.nav .dd-menu a small{display:block;color:var(--muted);font-size:var(--text-xs);margin-top:.1rem}
+.nav .dd-menu a:hover,.nav .dd-menu a[aria-current]{background:rgba(180,187,236,.12)}
+.nav .dd-menu a[aria-current]{color:var(--accent)}
+@media (max-width:760px){.nav ul{display:flex}.nav ul li:not(.dd){display:none}.nav .dd-menu{right:-.5rem}}
+
+
+/* hero */
+.hero{min-height:78vh;display:flex;align-items:center;padding:var(--section) 0 clamp(3rem,6vw,5rem);border-bottom:1px solid var(--line);position:relative;overflow:hidden}
+.hero::before{content:none}
+.hero::after{content:none}
+.hero .wrap{position:relative;z-index:1;width:100%}
+.hero h1{font-size:var(--text-hero);margin:1rem 0 1.4rem;max-width:10ch}
+.hero-grid{display:grid;grid-template-columns:minmax(0,7fr) minmax(0,4fr);gap:clamp(2rem,5vw,5rem);align-items:center}
+.portrait{margin:0;border:1px solid var(--line);border-radius:4px;overflow:hidden;max-width:400px;justify-self:end}
+.proof{list-style:none;display:grid;grid-template-columns:1fr 1fr;margin-top:2.2rem;border-top:1px solid var(--line);max-width:640px}
+.proof li{padding:1rem 1rem 1rem 0;border-bottom:1px solid var(--line)}
+.proof strong{display:block;font-family:var(--font-display);font-weight:500;font-size:var(--text-lg)}
+.proof span{font-size:var(--text-sm);color:var(--muted)}
+@media (max-width:860px){.hero-grid{grid-template-columns:1fr}.portrait{justify-self:start;max-width:280px;order:-1}}
+@media (max-width:480px){.proof{grid-template-columns:1fr}}
+.hero h1 em{font-style:italic;color:var(--accent)}
+.hero .lede{font-size:var(--text-lg);max-width:44ch;color:#ddd3c4;line-height:1.5}
+.tags{display:flex;flex-wrap:wrap;gap:.5rem;margin-top:2rem}
+.tags span{border:1px solid var(--line);border-radius:999px;padding:.35rem .9rem;font-size:var(--text-xs);color:var(--muted);background:rgba(26,26,30,.7)}
+.btns{display:flex;flex-wrap:wrap;gap:.8rem;margin-top:2.2rem}
+.btn{display:inline-flex;align-items:center;gap:.5rem;padding:.8rem 1.3rem;border-radius:6px;font-size:var(--text-sm);font-weight:600;text-decoration:none;transition:transform .15s,background .2s}
+.btn.primary{background:var(--accent);color:var(--accent-ink)}
+.btn.primary:hover{background:#c9cef3}
+.btn.ghost{border:1px solid var(--line);color:var(--text)}
+.btn.ghost:hover{border-color:var(--muted)}
+.btn:active{transform:translateY(1px)}
+
+section{padding:var(--section) 0;border-bottom:1px solid var(--line)}
+.split{display:grid;grid-template-columns:1fr;gap:clamp(2rem,4vw,3.2rem);align-items:start;max-width:880px;margin-inline:auto}
+.split.rev{grid-template-columns:1fr}
+.split .covers{max-width:520px;margin-inline:auto;width:100%}
+.covers figcaption{text-align:center}
+@media (max-width:860px){.split,.split.rev{grid-template-columns:1fr}}
+
+/* book */
+.covers{display:grid;grid-template-columns:1fr 1fr;gap:1rem;align-items:start}
+.covers img.cover{width:100%;height:auto;aspect-ratio:328/500;object-fit:cover;display:block}
+.covers figure{margin:0}
+.covers a .cover{transition:transform .25s ease, box-shadow .25s ease}
+.covers a:hover .cover{transform:translateY(-4px);box-shadow:0 30px 60px -18px rgba(0,0,0,.9)}
+.covers figcaption a{color:var(--accent);text-decoration:none}
+.covers figcaption{font-size:var(--text-xs);color:var(--muted);margin-top:.7rem;letter-spacing:.04em}
+.cover{width:100%;box-shadow:0 24px 50px -20px rgba(0,0,0,.8);border-radius:3px}
+.reviews{display:grid;gap:1rem;margin:1.6rem 0}
+.reviews figure{margin:0;padding:1.1rem 1.3rem;background:var(--surface);border:1px solid var(--line);border-radius:6px}
+.reviews blockquote{font-size:var(--text-sm);line-height:1.6;color:#e2d8c9}
+.reviews figcaption{font-size:var(--text-xs);color:var(--muted);margin-top:.5rem;letter-spacing:.04em}
+.reviews a{color:var(--accent)}
+.facts{display:grid;grid-template-columns:repeat(3,1fr);gap:1rem;margin:1.8rem 0;border-top:1px solid var(--line);padding-top:1.4rem}
+.facts div{font-size:var(--text-sm)}
+.facts strong{display:block;font-family:var(--font-display);font-size:var(--text-lg);font-weight:500;color:var(--text)}
+@media (max-width:520px){.facts{grid-template-columns:1fr 1fr}}
+blockquote.excerpt{font-family:var(--font-display);font-size:var(--text-lg);line-height:1.55;border-left:2px solid var(--accent);padding-left:1.4rem;margin:1.6rem 0;color:#e9e0d2}
+blockquote.excerpt p+p{margin-top:.8rem}
+
+/* film */
+.film-hero{border-radius:6px;overflow:hidden;border:1px solid var(--line)}
+.film-grid{display:grid;grid-template-columns:1.4fr 1fr;gap:1rem;margin-top:1rem}
+.film-grid img{border-radius:6px;border:1px solid var(--line);height:100%;object-fit:cover}
+@media (max-width:640px){.film-grid{grid-template-columns:1fr}}
+.laurel{width:150px;margin:1.2rem 0 1.4rem}
+.links{display:flex;flex-wrap:wrap;gap:.6rem;margin-top:1.6rem}
+
+/* translation */
+.bilingual{display:grid;grid-template-columns:1fr 1fr;gap:0;border:1px solid var(--line);border-radius:8px;overflow:hidden;margin-top:2rem}
+.bilingual > div{padding:clamp(1.3rem,3vw,2.2rem);background:var(--surface)}
+.bilingual > div + div{border-left:1px solid var(--line);background:#1e1e24}
+.bilingual .lang{font-size:var(--text-xs);letter-spacing:.16em;text-transform:uppercase;color:var(--accent);margin-bottom:1rem;font-weight:600}
+.bilingual p{font-family:var(--font-display);font-size:var(--text-base);line-height:1.7}
+.bilingual p+p{margin-top:1rem}
+@media (max-width:760px){.bilingual{grid-template-columns:1fr}.bilingual > div + div{border-left:0;border-top:1px solid var(--line)}}
+
+/* video */
+.videos{display:grid;grid-template-columns:repeat(3,1fr);gap:1.2rem;margin-top:2rem}
+@media (max-width:900px){.videos{grid-template-columns:1fr}}
+.vid{background:var(--surface);border:1px solid var(--line);border-radius:8px;overflow:hidden}
+.vid .frame{aspect-ratio:16/9;background:#000;position:relative}
+.vid .frame{display:block;overflow:hidden}.vid .frame img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;transition:transform .4s}.vid .frame:hover img{transform:scale(1.04)}.vid .play{position:absolute;left:50%;top:50%;width:58px;height:58px;margin:-29px 0 0 -29px;border-radius:50%;background:rgba(17,17,19,.75);border:1px solid rgba(241,234,223,.4)}.vid .play::after{content:"";position:absolute;left:23px;top:18px;border-left:16px solid var(--accent);border-top:11px solid transparent;border-bottom:11px solid transparent}
+.vid .cap{padding:1rem 1.1rem 1.2rem}
+.vid .cap h3{font-size:var(--text-base)}
+.vid .cap p{font-size:var(--text-sm);color:var(--muted);margin-top:.3rem}
+
+/* stories */
+.story-list{columns:2;column-gap:2.5rem;list-style:none;margin-top:1.2rem;font-size:var(--text-sm);color:var(--muted)}
+.story-list li{padding:.45rem 0;border-bottom:1px solid var(--line);break-inside:avoid}
+.story-list li span{color:var(--accent);font-variant-numeric:tabular-nums;margin-right:.6rem}
+
+/* about */
+.about-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:var(--line);border:1px solid var(--line);border-radius:8px;overflow:hidden;margin-top:2.4rem}
+.about-grid div{background:var(--surface);padding:1.4rem}
+.about-grid strong{display:block;font-size:var(--text-sm);margin-bottom:.35rem}
+.about-grid span{font-size:var(--text-sm);color:var(--muted);line-height:1.5;display:block}
+@media (max-width:860px){.about-grid{grid-template-columns:1fr 1fr}}
+@media (max-width:480px){.about-grid{grid-template-columns:1fr}}
+
+/* contact */
+.contact{text-align:center;border-bottom:0}
+.contact h2{font-size:clamp(2rem,1.4rem + 3vw,3.6rem);margin:1rem auto 1.4rem;max-width:18ch}
+.contact .btns{justify-content:center}
+footer{padding:2rem 0 3rem;font-size:var(--text-xs);color:var(--muted)}
+footer .wrap{display:flex;justify-content:space-between;gap:1rem;flex-wrap:wrap}
+
+.reveal{opacity:0;transform:translateY(18px);transition:opacity .8s ease,transform .8s ease}
+.reveal.in{opacity:1;transform:none}
+
+/* teaching */
+.teach-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:1px;background:var(--line);border:1px solid var(--line);border-radius:8px;overflow:hidden;margin-top:2.2rem}
+.teach-grid > div{background:var(--bg);padding:1.5rem 1.6rem}
+.teach-grid .when{font-size:var(--text-xs);letter-spacing:.12em;text-transform:uppercase;color:var(--accent);font-weight:600}
+.teach-grid h3{font-family:var(--font-display);font-weight:500;font-size:var(--text-lg);margin:.5rem 0 .2rem;line-height:1.2}
+.teach-grid .where{color:var(--muted);font-size:var(--text-sm);margin:0 0 .7rem}
+.teach-grid p:last-child{margin:0;font-size:var(--text-sm);color:#e2d8c9;line-height:1.6}
+.quotes{display:grid;grid-template-columns:repeat(3,1fr);gap:1.4rem;margin-top:2.4rem;align-items:stretch}
+.quotes blockquote{margin:0;padding:1.4rem 1.6rem;border-left:2px solid var(--accent);background:var(--surface);border-radius:0 8px 8px 0}
+.quotes blockquote p{font-family:var(--font-display);font-size:var(--text-lg);line-height:1.45;margin:0 0 .8rem}
+.quotes cite{font-style:normal;font-size:var(--text-xs);color:var(--muted);letter-spacing:.04em}
+.quotes .stack{display:contents}
+.quotes blockquote{display:flex;flex-direction:column;justify-content:space-between}
+.quotes blockquote p{font-size:var(--text-base)!important}
+@media (max-width:820px){.teach-grid,.quotes{grid-template-columns:1fr}}
+
+/* logos */
+.orgs{padding:clamp(3rem,6vw,4.5rem) 0;border-top:1px solid var(--line)}
+.orgs .eyebrow{text-align:center;margin-bottom:1.8rem}
+.org-row{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(5,1fr);gap:.9rem}
+.org-row li{background:#ecebe8;border-radius:10px;height:104px;display:flex;align-items:center;justify-content:center;padding:1rem 1.2rem}
+.org-row img{max-height:56px;max-width:100%;width:auto;filter:grayscale(1) contrast(1.05);opacity:.85;transition:filter .3s ease,opacity .3s ease}
+.org-row img.tall{max-height:72px}
+.org-row li:hover img{filter:none;opacity:1}
+@media (max-width:860px){.org-row{grid-template-columns:repeat(3,1fr)}}
+@media (max-width:520px){.org-row{grid-template-columns:repeat(2,1fr)}}
+
+/* process cards */
+.proc-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:1.2rem;margin-top:2.2rem}
+.proc-grid a{display:block;text-decoration:none;color:var(--text);border:1px solid var(--line);border-radius:10px;overflow:hidden;background:var(--surface);transition:border-color .25s ease,transform .25s ease}
+.proc-grid a:hover{border-color:var(--accent);transform:translateY(-3px)}
+.proc-grid img{width:100%;aspect-ratio:16/9;object-fit:cover;display:block;border-bottom:1px solid var(--line)}
+.proc-grid div{padding:1.2rem 1.3rem 1.4rem}
+.proc-grid small{display:block;font-size:var(--text-xs);letter-spacing:.12em;text-transform:uppercase;color:var(--accent);font-weight:600;margin-bottom:.35rem}
+.proc-grid strong{display:block;font-family:var(--font-display);font-weight:500;font-size:var(--text-lg);margin-bottom:.3rem}
+.proc-grid span{font-size:var(--text-sm);color:var(--muted)}
+.proc-grid a:hover strong::after{content:" →";color:var(--accent)}
+.mente{display:grid;grid-template-columns:120px 1fr;gap:1.2rem;align-items:center;margin-top:1.6rem;max-width:62ch}
+.mente img{width:120px;height:auto;border-radius:4px;border:1px solid var(--line)}
+.mente p{margin:0;font-size:var(--text-sm)}
+@media (max-width:700px){.proc-grid{grid-template-columns:1fr}}
+
+
+.gallery{columns:3 260px;column-gap:1rem;margin-top:2rem}
+.gallery figure{margin:0 0 1rem;break-inside:avoid}
+.gallery img{width:100%;height:auto;display:block;border-radius:6px;border:1px solid var(--line)}
+.gallery figcaption{font-size:var(--text-xs);color:var(--muted);margin-top:.5rem}
+.art{margin-top:2rem}
+.art-row{display:grid;grid-template-columns:repeat(4,1fr);gap:.8rem}
+.art-row img{width:100%;aspect-ratio:4/5;object-fit:cover;background:#fff;border-radius:6px;border:1px solid var(--line)}
+.art p{font-size:var(--text-sm);margin:.8rem 0 0}
+@media (max-width:640px){.art-row{grid-template-columns:1fr 1fr}}
+
+.film-quad{display:grid;grid-template-columns:1fr 1fr;gap:1rem}
+.film-quad .wide{grid-column:1/-1}
+.film-quad .wide img{aspect-ratio:auto;object-fit:cover;background:#000}
+.film-quad figure{margin:0}
+.film-quad img{width:100%;aspect-ratio:7/9;object-fit:contain;background:#f4f2ee;border:1px solid var(--line);border-radius:6px;display:block}
+.film-quad figure:nth-child(2) img{background:#000}
+.film-quad figcaption{font-size:var(--text-xs);color:var(--muted);margin-top:.5rem}
+.col{max-width:calc(880px - 2 * var(--pad));margin-inline:auto}
+.film-media{display:grid;grid-template-columns:1fr 1fr;gap:1rem;align-items:start}
+@media (max-width:640px){.film-media{grid-template-columns:1fr}}
+#novel .split{gap:1.4rem}
+.film-media img{width:100%;height:auto;display:block;border:1px solid var(--line);border-radius:6px}
+.teach-pair{display:grid;grid-template-columns:1fr 1fr;gap:1rem;margin:2rem auto 0}
+.teach-pair img{width:100%;height:auto;aspect-ratio:1136/640;object-fit:cover;border-radius:8px;border:1px solid var(--line);display:block}
+@media (max-width:640px){.teach-pair{grid-template-columns:1fr}}
+section[id]{scroll-margin-top:64px}
+footer a{color:inherit;text-decoration:none}footer a:hover{color:var(--accent)}
+@media (prefers-reduced-motion:reduce){.reveal{opacity:1;transform:none;transition:none}html{scroll-behavior:auto}}
+
+/* ---------- case study pages ---------- */
+.c-hero{padding:clamp(3.5rem,7vw,6rem) 0 clamp(2rem,4vw,3rem);border-bottom:0}
+.c-col{max-width:880px;margin-inline:auto}
+.back{display:inline-flex;gap:.4rem;font-size:var(--text-sm);color:var(--muted);text-decoration:none;margin-bottom:2rem}
+.back:hover{color:var(--text)}
+.c-hero h1{font-size:clamp(2.4rem,1.6rem + 3.4vw,4.6rem);margin:.8rem 0 1.2rem;line-height:1.02}
+.c-hero .lede{font-size:var(--text-lg);color:#ddd3c4;max-width:60ch;line-height:1.55}
+.meta{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:var(--line);border:1px solid var(--line);border-radius:10px;overflow:hidden;margin-top:2.4rem}
+.meta div{background:var(--bg);padding:1.1rem 1.2rem}
+.meta dt{font-size:var(--text-xs);letter-spacing:.12em;text-transform:uppercase;color:var(--accent);font-weight:600;margin-bottom:.4rem}
+.meta dd{margin:0;font-size:var(--text-sm);color:#e2d8c9;line-height:1.5}
+.c-media{margin:clamp(2rem,4vw,3rem) auto 0;max-width:1080px}
+.c-media img,.c-media video{width:100%;height:auto;border-radius:8px;border:1px solid var(--line);display:block}
+.c-media figcaption,.step figcaption{font-size:var(--text-xs);color:var(--muted);margin-top:.7rem;letter-spacing:.03em}
+.steps-v{list-style:none;margin:0 auto;padding:0;counter-reset:st}
+.step{counter-increment:st;display:grid;grid-template-columns:84px 1fr;gap:0 1.6rem;padding:clamp(2rem,4vw,3rem) 0;border-top:1px solid var(--line)}
+.step::before{content:counter(st,decimal-leading-zero);font-family:var(--font-display);font-size:2.6rem;line-height:1;color:var(--accent)}
+.step h2{font-size:var(--text-xl);margin:0 0 .7rem;line-height:1.15}
+.step p{margin:0 0 .8rem;color:#e2d8c9;max-width:62ch}
+.step .kicker{font-size:var(--text-xs);letter-spacing:.12em;text-transform:uppercase;color:var(--muted);font-weight:600;margin-bottom:.5rem}
+.step figure{margin:1.4rem 0 0}
+.step figure img,.step figure video{width:100%;height:auto;border-radius:8px;border:1px solid var(--line);display:block}
+.duo{display:grid;grid-template-columns:1fr 1fr;gap:1rem}
+.sz > figure:first-child{margin-top:1.4rem}
+@media (min-width:821px){.step > div > :is(figure,.sz,.duo,.trio,.shorts,.charart,.quad){position:relative;left:calc(-1 * (84px + 1.6rem) / 2)}}
+.books{align-items:start}.books img{aspect-ratio:328/500;object-fit:cover}
+.trio{display:grid;grid-template-columns:repeat(3,1fr);gap:.8rem}
+.shorts{display:grid;grid-template-columns:repeat(4,1fr);gap:.8rem}
+@media (max-width:600px){.shorts{grid-template-columns:repeat(2,1fr)}}
+.shorts img{aspect-ratio:9/16;object-fit:cover}
+.trio.tall img{aspect-ratio:4/5;object-fit:cover}
+.trio figure{margin:0}
+.launch-duo{margin-top:.8rem}
+.ta-grid{margin-top:1.2rem}
+.step video{width:100%;height:auto;border-radius:8px;border:1px solid var(--line);display:block}
+footer a{color:inherit;text-decoration:none}footer a:hover{color:var(--accent)}
+.launch-duo img{aspect-ratio:4/5;object-fit:cover}
+.charart{display:grid;grid-template-columns:1fr 1fr;gap:.8rem;margin-top:1rem;align-items:stretch}
+.charart figure{margin:0}
+.charart > figure img{height:100%;object-fit:cover}
+.charart > div{display:grid;gap:.8rem;grid-template-rows:1fr 1fr}
+.charart > div img{height:100%;object-fit:cover;background:#fff}
+@media (max-width:600px){.charart{grid-template-columns:1fr}}
+.quad{display:grid;grid-template-columns:repeat(4,1fr);gap:.8rem;margin-top:1rem}
+.quad figure{margin:0}
+.quad img{aspect-ratio:3/4;object-fit:cover;background:#fff}
+@media (max-width:820px){.quad{grid-template-columns:1fr 1fr}}
+.tools{display:flex;flex-wrap:wrap;gap:.45rem;margin-top:.4rem}
+.tools span{font-size:var(--text-xs);border:1px solid var(--line);border-radius:999px;padding:.25rem .7rem;color:var(--muted)}
+.pull{margin:1.2rem 0 0;padding:1.1rem 1.4rem;border-left:2px solid var(--accent);background:var(--surface);border-radius:0 8px 8px 0}
+.pull p{font-family:var(--font-display);font-size:var(--text-lg);line-height:1.45;margin:0 0 .6rem;color:var(--text)}
+.pull cite{font-style:normal;font-size:var(--text-xs);color:var(--muted)}
+.result{padding:clamp(3rem,6vw,4.5rem) 0}
+.result .eyebrow{margin-bottom:.8rem}
+.result h2{font-size:var(--text-xl);margin:0 0 1.4rem;max-width:26ch}
+.res-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:var(--line);border:1px solid var(--line);border-radius:10px;overflow:hidden}
+.res-grid div{background:var(--bg);padding:1.3rem 1.4rem}
+.res-grid strong{display:block;font-family:var(--font-display);font-weight:500;font-size:var(--text-lg);margin-bottom:.3rem}
+.res-grid span{font-size:var(--text-sm);color:var(--muted)}
+.next{display:flex;justify-content:space-between;gap:1rem;flex-wrap:wrap;padding:2.4rem 0 3.4rem}
+.next a{text-decoration:none;color:var(--text)}
+.next small{display:block;font-size:var(--text-xs);letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin-bottom:.3rem}
+.next span{font-family:var(--font-display);font-size:var(--text-lg)}
+.next a:hover span{color:var(--accent)}
+@media (max-width:820px){.meta{grid-template-columns:1fr 1fr}.res-grid{grid-template-columns:1fr}.step{grid-template-columns:1fr}.step::before{margin-bottom:.8rem}.duo{grid-template-columns:1fr}.trio{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<header class="nav">
+  <div class="wrap">
+    <a class="brand" href="index.html" aria-label="Anthony Michael Perri, home">
+      <img src="assets/amp-logo.png" alt="" width="210" height="360" class="logo">
+      Anthony Michael Perri
+    </a>
+    <ul><li><a href="index.html">← Portfolio</a></li><li class="dd"><details><summary>How I made it</summary><div class="dd-menu"><a href="process-lonely-boxer.html">Lonely Boxer<small>Writing, design, printing, launch</small></a><a href="process-crime-spree-mayhem.html" aria-current="page">Crime Spree Mayhem<small>Novel to film: script, boards, deck, budget</small></a><a href="process-yogaphysique.html">yogaphysique videos<small>Script, shoot, edit, thumbnails, Shorts</small></a><a href="teaching.html">How I teach<small>Planning and running a class</small></a></div></details></li><li><a href="index.html#contact">Contact</a></li></ul>
+  </div>
+</header>
+<main id="top">
+<section class="c-hero"><div class="wrap"><div class="c-col">
+  <a class="back" href="index.html">← Back to portfolio</a>
+  <div class="eyebrow">Process · Film</div>
+  <h1>Crime Spree Mayhem, from manuscript to pitch-ready film</h1>
+  <p class="lede">Crime Spree Mayhem started as my own novel manuscript. I adapted it into a screenplay, then built everything a producer needs to say yes: storyboards, a pitch deck, a festival plan, a shooting schedule and a crew.</p>
+  <dl class="meta"><div><dt>Role</dt><dd>Writer, director, producer</dd></div><div><dt>Recognition</dt><dd>Austin Film Festival 2025 laurel, Second Round (top 20%)</dd></div><div><dt>Deliverables</dt><dd>Screenplay, storyboards, pitch deck, shooting schedule, budget</dd></div><div><dt>Source</dt><dd>My own novel manuscript</dd></div></dl>
+</div>
+<figure class="c-media reveal" style="max-width:864px"><img src="assets/process/csm-1.jpg" alt="Crime Spree Mayhem pitch deck title slide over a night skyline" width="1440" height="810"><figcaption>Pitch deck title slide</figcaption></figure>
+</div></section>
+<section style="padding-top:0;padding-bottom:clamp(1rem,2vw,1.5rem)"><div class="wrap"><ol class="steps-v c-col">
+<li class="step reveal"><div><div class="kicker">Source</div><h2>Writing the manuscript</h2><p>I wrote Crime Spree Mayhem first as a novel manuscript, now in its second draft: a world where criminals can pay a weekly fee to stay out of jail. Bobby Constance, its most famous criminal, is hired to deliver a mysterious package, and when it turns out to be a young girl, he has to choose between his contract and her life.</p></div></li>
+<li class="step reveal"><div><div class="kicker">Craft</div><h2>Learning the form</h2><p>To adapt it properly, I took introductory screenwriting coursework at the University of Toronto and learned the format from the ground up.</p></div></li>
+<li class="step reveal"><div><div class="kicker">Adaptation</div><h2>Manuscript to screenplay</h2><p>I adapted one scene from the manuscript into a short screenplay, written in Final Draft, with three locations, a clear setup, rising action and a climax at the airport. The script reached the Second Round of the 2025 Austin Film Festival Script Competition.</p><figure style="max-width:420px;margin-inline:auto"><img src="assets/process/csm-script-p1.jpg" alt="First page of the Crime Spree Mayhem screenplay" width="900" height="1164" loading="lazy"><figcaption>Screenplay, page 1</figcaption></figure><div class="btns" style="margin-top:1rem"><a class="btn ghost" href="https://bobbyconstance.github.io/crimespreemayhem/Screenplay.pdf" target="_blank" rel="noopener">Read the screenplay ↗</a></div></div></li>
+<li class="step reveal"><div><div class="kicker">Visualizing</div><h2>Storyboards</h2><p>I drew the storyboards by hand, shot by shot, to lock in framing, camera movement and pacing before anyone picks up a camera.</p><figure style="max-width:420px;margin-inline:auto"><img src="assets/process/csm-board-16.jpg" alt="Hand-drawn storyboard page 16 for Crime Spree Mayhem: Bobby, the men in sunglasses and Emelia" width="900" height="1168" loading="lazy"><figcaption>Hand-drawn storyboard, page 16 of 22 · <a href="https://bobbyconstance.github.io/crimespreemayhem/Storyboards.pdf" target="_blank" rel="noopener" style="color:var(--accent)">All storyboards ↗</a></figcaption></figure><p style="margin-top:1.6rem">I also drew and painted Bobby Constance myself, as character studies for his look and attitude.</p><div class="charart" style="max-width:75%;margin-inline:auto"><figure><img src="assets/process/art-bobby-gq.jpg" alt="Painting of Bobby Constance in a suit against a red background" width="1000" height="1332" loading="lazy"></figure><div><figure><img src="assets/process/art-bobby-gun.jpg" alt="Marker drawing of Bobby Constance holding a revolver" width="1000" height="757" loading="lazy"></figure><figure><img src="assets/process/art-bobby-cross.jpg" alt="Ink drawing of Bobby Constance with arms raised" width="1000" height="779" loading="lazy"></figure></div></div><figure style="margin-top:.2rem;max-width:75%;margin-inline:auto"><figcaption>Character art for Bobby Constance</figcaption></figure></div></li>
+<li class="step reveal"><div><div class="kicker">Pitching</div><h2>The pitch deck</h2><p>I designed a deck that sells the film in minutes: logline, characters, the world and its look, with my own character art.</p><div class="sz" style="max-width:90%;margin-inline:auto"><div class="duo"><figure><img src="assets/process/csm-7.jpg" alt="Pitch deck logline slide with a painted portrait" width="1440" height="810" loading="lazy"><figcaption>Logline</figcaption></figure><figure><img src="assets/process/csm-9.jpg" alt="Pitch deck character slide for Bobby Constance with hand-drawn art" width="1440" height="810" loading="lazy"><figcaption>Character: Bobby Constance</figcaption></figure></div><figure><img src="assets/process/csm-13.jpg" alt="Pitch deck slide describing the world of the film" width="1440" height="810" loading="lazy"><figcaption>The world</figcaption></figure></div><p style="margin-top:1rem"><a href="https://bobbyconstance.github.io/crimespreemayhem/PitchDeck.pdf" target="_blank" rel="noopener" style="color:var(--accent)">See the full pitch deck ↗</a></p></div></li>
+<li class="step reveal"><div><div class="kicker">Strategy</div><h2>Festival plan</h2><p>I mapped where the finished film would go, targeting short-film and genre festivals including TIFF, Sundance and Tribeca.</p><div class="sz" style="max-width:90%;margin-inline:auto"><figure><img src="assets/process/csm-18.jpg" alt="Pitch deck slide listing target festivals" width="1440" height="810" loading="lazy"><figcaption>Target festivals</figcaption></figure></div></div></li>
+<li class="step reveal"><div><div class="kicker">Pre-production</div><h2>Shooting schedule and budget</h2><p>I broke the script into a shot-by-shot schedule, with shot size, camera move, support, timing and actor wrap times. Then I built a detailed production budget around it, with every line costed to ACTRA and Writers Guild of Canada rates, ready for arts council funding.</p><div class="duo" style="max-width:720px;margin-inline:auto;align-items:start"><figure><img src="assets/process/csm-schedule.jpg" alt="Excerpt of the Crime Spree Mayhem shooting schedule" width="1170" height="445" loading="lazy"><figcaption>Shooting schedule, day 1 excerpt</figcaption></figure><figure><img src="assets/process/csm-budget.jpg" alt="Excerpt of the Crime Spree Mayhem production budget prepared for the Ontario Arts Council" width="1400" height="551" loading="lazy"><figcaption>Production budget excerpt, Ontario Arts Council format</figcaption></figure></div></div></li>
+<li class="step reveal"><div><div class="kicker">People</div><h2>Building the team</h2><p>I pitched the project and attached a crew, including a producer, director of photography and first assistant director. I also wrote grant applications to the Canada Council for the Arts and the Ontario Arts Council.</p></div></li>
+</ol></div></section>
+<section class="result"><div class="wrap"><div class="c-col reveal"><div class="eyebrow">Result</div><h2>A complete, pitch-ready package for a short film, all from one writer’s novel manuscript.</h2>
+<div class="res-grid"><div><strong>Austin Film Festival</strong><span>2025 Script Competition, Second Round</span></div><div><strong>Pitch-ready</strong><span>Script, boards, deck, schedule, budget</span></div><div><strong>2 grant applications</strong><span>Canada Council for the Arts and Ontario Arts Council</span></div></div>
+<div class="btns"><a class="btn primary" href="https://bobbyconstance.github.io/crimespreemayhem/" target="_blank" rel="noopener">Crime Spree Mayhem site ↗</a><a class="btn ghost" href="https://bobbyconstance.github.io/crimespreemayhem/Screenplay.pdf" target="_blank" rel="noopener">Screenplay ↗</a><a class="btn ghost" href="https://bobbyconstance.github.io/crimespreemayhem/PitchDeck.pdf" target="_blank" rel="noopener">Pitch deck ↗</a><a class="btn ghost" href="https://bobbyconstance.github.io/crimespreemayhem/Storyboards.pdf" target="_blank" rel="noopener">Storyboards ↗</a></div></div></div></section>
+<div class="wrap"><nav class="next c-col" aria-label="More process pages"><a href="index.html"><small>Back</small><span>← Portfolio</span></a><a href="process-yogaphysique.html" style="text-align:right"><small>Next process</small><span>yogaphysique videos →</span></a></nav></div>
+</main>
+<footer><div class="wrap"><span>© 2026 Anthony Michael Perri</span><span><a href="art.html">Art</a> · <a href="https://www.linkedin.com/in/anthony-michael-perri" target="_blank" rel="noopener">LinkedIn</a> · Toronto, Ontario, Canada</span></div></footer>
+<script>
+document.addEventListener('click',e=>{document.querySelectorAll('.nav .dd details[open]').forEach(d=>{if(!d.contains(e.target))d.removeAttribute('open')})});
+document.addEventListener('keydown',e=>{if(e.key==='Escape')document.querySelectorAll('.nav .dd details[open]').forEach(d=>d.removeAttribute('open'))});
+const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}}),{threshold:.08});
+document.querySelectorAll('.reveal').forEach(el=>io.observe(el));
+</script>
+</body>
+</html>
